@@ -1,0 +1,45 @@
+__pycache__/
+*.py[cod]
+
+# Local Python environments and editor state
+.venv/
+venv/
+ENV/
+.idea/
+.vscode/
+
+# Local credentials and secret-bearing configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.streamlit/secrets.*.toml
+secrets/
+credentials/
+*credentials*.json
+*service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Runtime logs, databases, caches, and temporary output
+logs/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.tmp
+*.temp
+.cache/
+
+# Models and generated experiment/evaluation data (preserve source and reports)
+models/
+results/
+artifacts/
+checkpoints/
+data/generated/
+data/private/
+
+# Local machine-specific Streamlit overrides; keep the project theme config.
+.streamlit/config.local.toml

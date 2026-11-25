@@ -1,0 +1,7 @@
+# Optional dashboard and the existing local model/metrics dependencies.
+# Core offline execution remains usable without installing these packages.
+streamlit>=1.36,<2
+pandas>=2.0,<4
+numpy>=2.0,<3
+scikit-learn>=1.6,<2
+joblib>=1.4,<2
